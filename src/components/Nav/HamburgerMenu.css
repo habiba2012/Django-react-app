@@ -1,0 +1,104 @@
+                 .hambugerIcon {
+                     width: 30px;
+                     height: 30px;
+                     margin-top: 10px;
+                     margin-left: -56px;
+                     position: absolute;
+                 }
+                 
+                 .menu-bars {
+                     margin-right: 16rem!important;
+                     font-size: 3rem;
+                     background: none;
+                     float: left;
+                     top: 0px;
+                     position: absolute;
+                 }
+                 
+                 .nav-menu {
+                     position: fixed;
+                     background-color: var(--blue)!important;
+                     background: url(../img/lines3-purple.svg);
+                     background-repeat: no-repeat;
+                     background-size: 250px;
+                     background-position-x: -80px;
+                     background-position-y: -160px;
+                     margin-top: -29px;
+                     z-index: 1200;
+                     width: 300px;
+                     height: 100vh!important;
+                     right: -100%;
+                     transition: all 0.75 ease;
+                 }
+                 
+                 ul {
+                     margin-top: 10px;
+                 }
+                 
+                 li {
+                     display: flex;
+                 }
+                 
+                 .nav-about {
+                     margin-top: 4px;
+                 }
+                 
+                 .nav-map {
+                     margin-top: 110px;
+                 }
+                 
+                 @media screen and (max-width: 768px) {
+                     .nav-menu {
+                         width: 100%;
+                         text-align: center;
+                         justify-items: center;
+                     }
+                     li {
+                         display: flex;
+                     }
+                     .hambugerIcon {
+                         width: 25px;
+                         height: 25px;
+                         margin-top: 14px;
+                     }
+                 }
+                 
+                 .nav-menu.active {
+                     padding-top: 100px;
+                     right: 0;
+                     transition: all 0.75s ease;
+                     z-index: 1;
+                 }
+                 
+                 .nav-text {
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     list-style: none;
+                     padding: 2px;
+                 }
+                 
+                 .nav-text a {
+                     text-decoration: none;
+                     color: #f5f5f5;
+                     font-size: 17px;
+                     width: 55%;
+                     height: 100%;
+                     display: flex;
+                     justify-content: center;
+                     border-radius: 4px;
+                 }
+                 
+                 .nav-menu-items {
+                     width: 100%;
+                 }
+                 
+                 .navbar-toggle {
+                     background-color: none;
+                     font-weight: bold;
+                     width: 300px;
+                     height: 100%;
+                     display: flex;
+                     justify-content: flex-end;
+                     align-items: center;
+                 }

@@ -1,0 +1,80 @@
+/* body {
+    box-sizing: border-box;
+    background-color: blue!important;
+    background: url(../img/lines3-purple.svg);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position-x: -100px;
+    background-position-y: -200px;
+    height: 100vh;
+    width: 100vw;
+} */
+
+.page__header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.9);
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.hamburger-icon {
+    position: relative;
+    margin-right: 0;
+    margin-left: 1200px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page__icon {
+    /*  position: absolute;
+    margin-top: -40px; */
+    display: inline-block;
+    vertical-align: top;
+    visibility: visible;
+    opacity: none!important;
+}
+
+.shop-page {
+    display: flex;
+    justify-content: center!important;
+    align-items: center!important;
+    background-color: blue;
+    flex-direction: column;
+    /* display: flex; */
+}
+
+.shop-page h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--lavender);
+    text-align: center!important;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 520px;
+}
+
+p {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 150px;
+    /* margin-left: 450px; */
+    color: var(--lavender);
+    width: 750px;
+    text-align: justify;
+    word-break: keep-all;
+}
+
+.shop-details {
+    margin-top: 20px;
+}

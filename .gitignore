@@ -1,0 +1,4 @@
+postgres/
+*.sqlite3
+media/
+.vscode/

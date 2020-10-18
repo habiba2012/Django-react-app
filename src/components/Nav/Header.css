@@ -1,0 +1,26 @@
+/* css for Header.js */
+
+.input-toggle {
+    position: absolute;
+    background-color: transparent !important;
+    padding: 1px 2px;
+    text-align: left !important;
+    overflow: hidden;
+    /* outline: none;
+    border: none; */
+    height: 30px;
+    text-transform: uppercase;
+    color: #152AFC;
+    font-size: 25px;
+    max-width: 170px;
+    visibility: hidden;
+    cursor: text;
+}
+
+.input-toggle.active {
+    visibility: visible;
+}
+
+.menu-img.hide-img {
+    visibility: hidden;
+}

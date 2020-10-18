@@ -1,0 +1,82 @@
+.about-hambugerIcon {
+    width: 30px;
+    height: 30px;
+    margin-top: -14px;
+    margin-left: -60px;
+    position: absolute;
+}
+
+.about-menu-bars {
+    margin-right: 16rem!important;
+    font-size: 3rem;
+    background: none;
+    float: left;
+    /* margin-top: 5px; */
+    position: absolute;
+}
+
+@media screen and (max-width:768px) {
+    .about-nav-menu {
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+    }
+    .about-menu-bars {
+        text-align: center;
+        justify-items: center;
+    }
+    span .about-close-icon {
+        margin-right: 2px;
+        margin-top: 5px;
+        ;
+    }
+    li {
+        display: flex;
+    }
+}
+
+.about-nav-menu.active {
+    right: 0;
+    transition: all 0.75s ease;
+    z-index: 1;
+}
+
+.about-nav-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding: 0px 0px 8px 16px;
+    list-style: none;
+    height: 50px;
+}
+
+.about-nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.about-nav-text a:hover {
+    background-color: #1a83ff;
+}
+
+.about-nav-menu-items {
+    width: 100%;
+}
+
+.about-navbar-toggle {
+    background-color: none;
+    font-weight: bold;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
